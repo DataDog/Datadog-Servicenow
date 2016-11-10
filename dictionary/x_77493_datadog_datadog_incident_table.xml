@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_77493_datadog_table" label="Datadog Incident Table" max_length="40" name="x_77493_datadog_datadog_incident_table" type="collection"/>
+</database>

@@ -10,6 +10,7 @@
         <element label="ALERT_TITLE" max_length="200" name="alert_title" type="string_full_utf8"/>
         <element label="ALERT_TRANSITION" max_length="80" name="alert_transition" type="string_full_utf8"/>
         <element label="DATE" max_length="40" name="date" type="glide_date_time"/>
+        <element label="DESTINATION_TABLE" max_length="80" name="destination_table" type="string_full_utf8"/>
         <element label="EVENT_MSG" max_length="600" name="event_msg" type="html"/>
         <element label="EVENT_TITLE" max_length="80" name="event_title" type="string"/>
         <element label="EVENT_TYPE" max_length="255" name="event_type" type="string_full_utf8"/>

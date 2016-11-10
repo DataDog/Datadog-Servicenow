@@ -21,7 +21,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-11-08 18:27:48</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>68a41a50db032200c1e6771ebf961998</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Datadog Table</sys_name>
