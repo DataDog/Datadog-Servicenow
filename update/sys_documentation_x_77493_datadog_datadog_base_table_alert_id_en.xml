@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="" label="Datadog Problem Table" language="en" table="x_77493_datadog_datadog_problem_table">
+    <sys_documentation element="alert_id" label="ALERT_ID" language="en" table="x_77493_datadog_datadog_base_table">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>alert_id</element>
             <help/>
             <hint/>
-            <label>Datadog Problem Table</label>
+            <label>ALERT_ID</label>
             <language>en</language>
-            <name>x_77493_datadog_datadog_problem_table</name>
-            <plural>Datadog Problem Tables</plural>
+            <name>x_77493_datadog_datadog_base_table</name>
+            <plural>ALERT_IDs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-11-10 22:33:22</sys_created_on>
+            <sys_created_on>2016-11-10 22:31:00</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>ed0061cddb872200c1e6771ebf9619e4</sys_id>
+            <sys_id>cf7fd98ddb872200c1e6771ebf96195e</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Datadog Problem Table</sys_name>
+            <sys_name>ALERT_ID</sys_name>
             <sys_package display_value="Datadog" source="x_77493_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
-            <sys_update_name>sys_documentation_x_77493_datadog_datadog_problem_table__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_77493_datadog_datadog_base_table_alert_id_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-11-10 22:33:22</sys_updated_on>
+            <sys_updated_on>2016-11-10 22:31:00</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
