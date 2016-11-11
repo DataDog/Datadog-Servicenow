@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-11-10 22:33:22</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>250061cddb872200c1e6771ebf961958</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_77493_datadog_datadog_problem_table</sys_name>
