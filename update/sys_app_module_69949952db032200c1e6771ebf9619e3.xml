@@ -17,7 +17,7 @@
         <name/>
         <order/>
         <override_menu_roles>false</override_menu_roles>
-        <query>/nav_to.do?uri=sys_transform_map.do?sys_id=776161cddb872200c1e6771ebf96199b</query>
+        <query>/sys_transform_map.do?sys_id=776161cddb872200c1e6771ebf96199b</query>
         <report/>
         <roles/>
         <survey/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>69949952db032200c1e6771ebf9619e3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Datadog Problem Transform</sys_name>
         <sys_overrides/>
         <sys_package display_value="Datadog" source="x_77493_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
         <sys_update_name>sys_app_module_69949952db032200c1e6771ebf9619e3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-11-14 18:56:25</sys_updated_on>
+        <sys_updated_on>2016-11-14 19:08:36</sys_updated_on>
         <timeline_page/>
         <title>Datadog Problem Transform</title>
         <uncancelable>false</uncancelable>
