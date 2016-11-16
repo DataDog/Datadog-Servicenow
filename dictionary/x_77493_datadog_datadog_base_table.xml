@@ -21,5 +21,6 @@
         <element label="ORG_ID" max_length="40" name="org_id" type="integer"/>
         <element label="ORG_NAME" max_length="80" name="org_name" type="string_full_utf8"/>
         <element label="PRIORITY" max_length="40" name="priority" type="integer"/>
+        <element label="TEXT_ONLY_MSG" max_length="200" name="text_only_msg" type="string_full_utf8"/>
     </element>
 </database>
