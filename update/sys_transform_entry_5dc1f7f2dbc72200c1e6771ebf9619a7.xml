@@ -6,40 +6,32 @@
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
-        <map display_value="Datadog Event Transform">37a065cddb872200c1e6771ebf9619ac</map>
+        <map display_value="Datadog Incident Transform">daf0a5cddb872200c1e6771ebf96198c</map>
         <reference_value_field/>
-        <source_field>[Script]</source_field>
+        <source_field>text_only_msg</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {
 
-    var int_severity = 4;
-	
-	if (source.PRIORITY == 'high')
-		int_severity = 1;
-	else if (source.PRIORITY == 'medium')
-		int_severity = 2;
-	else if (source.PRIORITY == 'low')
-		int_severity = 3;
-	
-	return int_severity; // return the value to be put into the target field
+	// Add your code here
+	return ""; // return the value to be put into the target field
 
 })(source);]]></source_script>
-        <source_table>x_77493_datadog_datadog_event_table</source_table>
+        <source_table>x_77493_datadog_datadog_incident_table</source_table>
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2016-11-16 16:27:43</sys_created_on>
+        <sys_created_on>2016-11-16 19:39:46</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>b0b5cbf2db032200c1e6771ebf961987</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>[Script]</sys_name>
+        <sys_id>5dc1f7f2dbc72200c1e6771ebf9619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_only_msg</sys_name>
         <sys_package display_value="Datadog" source="x_77493_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
-        <sys_update_name>sys_transform_entry_b0b5cbf2db032200c1e6771ebf961987</sys_update_name>
+        <sys_update_name>sys_transform_entry_5dc1f7f2dbc72200c1e6771ebf9619a7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-11-16 20:36:35</sys_updated_on>
-        <target_field>severity</target_field>
-        <target_table>em_event</target_table>
-        <use_source_script>true</use_source_script>
+        <sys_updated_on>2016-11-16 19:39:46</sys_updated_on>
+        <target_field>description</target_field>
+        <target_table>incident</target_table>
+        <use_source_script>false</use_source_script>
     </sys_transform_entry>
 </record_update>
