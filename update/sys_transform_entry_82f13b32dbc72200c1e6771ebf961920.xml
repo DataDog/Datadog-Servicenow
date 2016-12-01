@@ -15,7 +15,7 @@
 	return ""; // return the value to be put into the target field
 
 })(source);]]></source_script>
-        <source_table>x_77493_datadog_datadog_problem_table</source_table>
+        <source_table>x_snc_datadog_problem_table</source_table>
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-11-16 19:40:37</sys_created_on>
@@ -23,7 +23,7 @@
         <sys_id>82f13b32dbc72200c1e6771ebf961920</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>text_only_msg</sys_name>
-        <sys_package display_value="Datadog" source="x_77493_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
+        <sys_package display_value="Datadog" source="x_snc_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
