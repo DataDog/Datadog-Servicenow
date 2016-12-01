@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>datadog.user</name>
+        <suffix/>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-11-21 18:26:12</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>9cf051e8db176200c1e6771ebf9619c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>datadog.user</sys_name>
+        <sys_package display_value="Datadog" source="x_77493_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
+        <sys_update_name>sys_user_role_9cf051e8db176200c1e6771ebf9619c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-11-21 18:26:12</sys_updated_on>
+    </sys_user_role>
+</record_update>
