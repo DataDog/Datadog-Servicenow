@@ -14,12 +14,12 @@
         <map_page/>
         <mobile_title>Datadog Base Tables</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_77493_datadog_datadog_base_table</name>
+        <name>x_snc_datadog_base_table</name>
         <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_77493_datadog.user</roles>
+        <roles>x_snc_datadog.user</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -32,7 +32,7 @@
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Datadog Base Tables</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Datadog" source="x_77493_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
+        <sys_package display_value="Datadog" source="x_snc_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>

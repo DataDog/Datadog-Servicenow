@@ -11,10 +11,10 @@
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
-        <scope>x_77493_datadog</scope>
+        <scope>x_snc_datadog</scope>
         <scoped_administration>false</scoped_administration>
         <short_description/>
-        <source>x_77493_datadog</source>
+        <source>x_snc_datadog</source>
         <store_correlation_id/>
         <store_url/>
         <sys_class_name>sys_app</sys_class_name>
@@ -27,7 +27,7 @@
         <sys_updated_on>2016-11-08 18:27:47</sys_updated_on>
         <template/>
         <trackable>true</trackable>
-        <user_role display_value="x_77493_datadog.user" name="x_77493_datadog.user">7ca41e50db032200c1e6771ebf96199e</user_role>
+        <user_role display_value="x_snc_datadog.user" name="x_snc_datadog.user">7ca41e50db032200c1e6771ebf96199e</user_role>
         <vendor/>
         <vendor_prefix/>
         <version>1.0.0</version>
