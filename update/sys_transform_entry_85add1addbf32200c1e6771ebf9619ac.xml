@@ -10,9 +10,18 @@
         <reference_value_field/>
         <source_field>[Script]</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {
-  // This is an example of a regex search on a monitor entry.
-  // If you have urgency defied in the text of your alert, then you can search for it with a regex.
-  var urgency = null;
+  /**
+  *  This is an example of a regex search on a monitor entry.
+  *  If you have urgency defied in the text of your alert, then you can search for it with a regex.
+  *  assume the alert text would look something like this:
+  *
+  *  Oh no, something bad happened
+  *  Urgency: 3
+  *  Too many bad things happened!
+  *
+  **/
+
+  var urgency = "";
   var re = /Urgency:\s([0-9])/g;
   var m = re.exec(source.text_only_msg);
   // If there is no match, m will be null;
@@ -31,7 +40,7 @@
         <sys_created_on>2016-12-19 18:49:27</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>85add1addbf32200c1e6771ebf9619ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>[Script]</sys_name>
         <sys_package display_value="Datadog" source="x_snc_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
         <sys_policy/>
@@ -39,7 +48,7 @@
         <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
         <sys_update_name>sys_transform_entry_85add1addbf32200c1e6771ebf9619ac</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-12-19 18:49:27</sys_updated_on>
+        <sys_updated_on>2016-12-19 20:10:58</sys_updated_on>
         <target_field>urgency</target_field>
         <target_table>incident</target_table>
         <use_source_script>true</use_source_script>
