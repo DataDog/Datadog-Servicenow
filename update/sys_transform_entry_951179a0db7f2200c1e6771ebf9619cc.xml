@@ -8,38 +8,30 @@
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
         <map display_value="Datadog Incident Transform">daf0a5cddb872200c1e6771ebf96198c</map>
         <reference_value_field/>
-        <source_field>[Script]</source_field>
+        <source_field>hostname</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {
 
-    var int_severity = 1;
-	
-	if (source.PRIORITY == 'high')
-		int_severity = 1;
-	else if (source.PRIORITY == 'medium')
-		int_severity = 2;
-	else if (source.PRIORITY == 'low')
-		int_severity = 3;
-	
-	return int_severity; // return the value to be put into the target field
+	// Add your code here
+	return ""; // return the value to be put into the target field
 
 })(source);]]></source_script>
         <source_table>x_snc_datadog_incident_table</source_table>
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2016-11-16 19:39:12</sys_created_on>
+        <sys_created_on>2016-12-16 17:18:02</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>8a417ffedb872200c1e6771ebf9619ae</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>[Script]</sys_name>
+        <sys_id>951179a0db7f2200c1e6771ebf9619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>hostname</sys_name>
         <sys_package display_value="Datadog" source="x_snc_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
-        <sys_update_name>sys_transform_entry_8a417ffedb872200c1e6771ebf9619ae</sys_update_name>
+        <sys_update_name>sys_transform_entry_951179a0db7f2200c1e6771ebf9619cc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-11-18 18:47:57</sys_updated_on>
-        <target_field>urgency</target_field>
+        <sys_updated_on>2016-12-16 17:18:02</sys_updated_on>
+        <target_field>cmdb_ci</target_field>
         <target_table>incident</target_table>
-        <use_source_script>true</use_source_script>
+        <use_source_script>false</use_source_script>
     </sys_transform_entry>
 </record_update>
