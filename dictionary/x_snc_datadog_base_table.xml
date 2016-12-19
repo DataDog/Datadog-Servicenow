@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element attributes="live_feed=true" extends="sys_import_set_row" label="Datadog Base Table" max_length="40" name="x_snc_datadog_base_table" type="collection">
+        <element label="Action" max_length="50" name="action" type="string_full_utf8"/>
         <element label="Aggregation Key" max_length="80" name="aggreg_key" type="string_full_utf8"/>
         <element label="Alert Cycle Key" max_length="255" name="alert_cycle_key" type="string_full_utf8"/>
         <element label="Alert ID" max_length="80" name="alert_id" type="string_full_utf8"/>
@@ -8,12 +9,12 @@
         <element label="Alert Query" max_length="400" name="alert_query" type="string_full_utf8"/>
         <element label="Alert Scope" max_length="400" name="alert_scope" type="string_full_utf8"/>
         <element label="Alert Status" max_length="80" name="alert_status" type="string_full_utf8"/>
-        <element label="Alert Title" max_length="200" name="alert_title" type="string_full_utf8"/>
+        <element label="Alert Title" max_length="1000" name="alert_title" type="string_full_utf8"/>
         <element label="Alert Transition" max_length="80" name="alert_transition" type="string_full_utf8"/>
         <element label="Date" max_length="40" name="date" type="glide_date_time"/>
         <element label="Destination Table" max_length="80" name="destination_table" type="string_full_utf8"/>
-        <element label="Event Message" max_length="600" name="event_msg" type="html"/>
-        <element label="Event Title" max_length="400" name="event_title" type="string_full_utf8"/>
+        <element label="Event Message" max_length="4000" name="event_msg" type="html"/>
+        <element label="Event Title" max_length="1000" name="event_title" type="string_full_utf8"/>
         <element label="Event Type" max_length="255" name="event_type" type="string_full_utf8"/>
         <element label="Hostname" max_length="100" name="hostname" type="string_full_utf8"/>
         <element label="ID" max_length="40" name="id" type="string"/>
@@ -21,7 +22,8 @@
         <element label="Link" max_length="80" name="link" type="string_full_utf8"/>
         <element label="Org ID" max_length="40" name="org_id" type="integer"/>
         <element label="Org Name" max_length="80" name="org_name" type="string_full_utf8"/>
+        <element label="Pretty Event Details" max_length="4000" name="pretty_event_details" type="journal_input"/>
         <element label="Priority" max_length="40" name="priority" type="integer"/>
-        <element label="Text Only Message" max_length="200" name="text_only_msg" type="string_full_utf8"/>
+        <element label="Text Only Message" max_length="4000" name="text_only_msg" type="string_full_utf8"/>
     </element>
 </database>
