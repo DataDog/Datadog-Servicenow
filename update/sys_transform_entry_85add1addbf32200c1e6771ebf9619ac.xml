@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Datadog Incident Transform">daf0a5cddb872200c1e6771ebf96198c</map>
+        <reference_value_field/>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+  // This is an example of a regex search on a monitor entry.
+  // If you have urgency defied in the text of your alert, then you can search for it with a regex.
+  var urgency = null;
+  var re = /Urgency:\s([0-9])/g;
+  var m = re.exec(source.text_only_msg);
+  // If there is no match, m will be null;
+  if (m) {
+    if (m.length == 2) {
+      urgency = m[1];
+    }
+  }
+	return urgency; // return the value to be put into the target field
+
+})(source);
+]]></source_script>
+        <source_table>x_snc_datadog_incident_table</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-12-19 18:49:27</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>85add1addbf32200c1e6771ebf9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Datadog" source="x_snc_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
+        <sys_update_name>sys_transform_entry_85add1addbf32200c1e6771ebf9619ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-12-19 18:49:27</sys_updated_on>
+        <target_field>urgency</target_field>
+        <target_table>incident</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>
