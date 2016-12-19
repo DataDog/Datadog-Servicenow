@@ -13,11 +13,11 @@
 
     var int_severity = 4;
 	
-	if (source.PRIORITY == 'high')
+	if (source.priority == 'normal')
 		int_severity = 1;
-	else if (source.PRIORITY == 'medium')
+	else if (source.priority == 'all')
 		int_severity = 2;
-	else if (source.PRIORITY == 'low')
+	else if (source.priority == 'low')
 		int_severity = 3;
 	
 	return int_severity; // return the value to be put into the target field
@@ -29,7 +29,7 @@
         <sys_created_on>2016-11-16 16:27:43</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>b0b5cbf2db032200c1e6771ebf961987</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>[Script]</sys_name>
         <sys_package display_value="Datadog" source="x_snc_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
         <sys_policy/>
@@ -37,8 +37,8 @@
         <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
         <sys_update_name>sys_transform_entry_b0b5cbf2db032200c1e6771ebf961987</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-11-16 20:36:35</sys_updated_on>
-        <target_field>severity</target_field>
+        <sys_updated_on>2016-12-19 02:45:04</sys_updated_on>
+        <target_field>priority</target_field>
         <target_table>em_event</target_table>
         <use_source_script>true</use_source_script>
     </sys_transform_entry>
