@@ -8,7 +8,7 @@
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
         <map display_value="Datadog Incident Transform">daf0a5cddb872200c1e6771ebf96198c</map>
         <reference_value_field/>
-        <source_field>alert_title</source_field>
+        <source_field>event_title</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {
 
 	// Add your code here
@@ -21,15 +21,15 @@
         <sys_created_on>2016-12-16 17:18:01</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>dd1179a0db7f2200c1e6771ebf9619cb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>alert_title</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>event_title</sys_name>
         <sys_package display_value="Datadog" source="x_snc_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
         <sys_update_name>sys_transform_entry_dd1179a0db7f2200c1e6771ebf9619cb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-12-16 17:18:01</sys_updated_on>
+        <sys_updated_on>2016-12-21 18:40:35</sys_updated_on>
         <target_field>short_description</target_field>
         <target_table>incident</target_table>
         <use_source_script>false</use_source_script>

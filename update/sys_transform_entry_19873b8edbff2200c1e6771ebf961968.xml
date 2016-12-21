@@ -8,7 +8,7 @@
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
         <map display_value="Datadog Problem Transform">776161cddb872200c1e6771ebf96199b</map>
         <reference_value_field/>
-        <source_field>event_title</source_field>
+        <source_field>pretty_event_details</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {
 
 	// Add your code here
@@ -18,19 +18,19 @@
         <source_table>x_snc_datadog_problem_table</source_table>
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2016-12-19 02:50:35</sys_created_on>
+        <sys_created_on>2016-12-21 19:00:14</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>7c370695db332200c1e6771ebf961997</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>event_title</sys_name>
+        <sys_id>19873b8edbff2200c1e6771ebf961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pretty_event_details</sys_name>
         <sys_package display_value="Datadog" source="x_snc_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
-        <sys_update_name>sys_transform_entry_7c370695db332200c1e6771ebf961997</sys_update_name>
+        <sys_update_name>sys_transform_entry_19873b8edbff2200c1e6771ebf961968</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2016-12-21 18:56:05</sys_updated_on>
-        <target_field>short_description</target_field>
+        <sys_updated_on>2016-12-21 19:00:14</sys_updated_on>
+        <target_field>work_notes</target_field>
         <target_table>problem</target_table>
         <use_source_script>false</use_source_script>
     </sys_transform_entry>
