@@ -2,7 +2,13 @@
 <record_update table="ua_table_licensing_config">
     <ua_table_licensing_config action="INSERT_OR_UPDATE">
         <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
         <name>x_snc_datadog_problem_table</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
         <owner_condition table="x_snc_datadog_problem_table">sys_created_by=javascript:gs.getUserName()^EQ<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserName()"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </owner_condition>
@@ -10,14 +16,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-11-10 22:33:22</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>e1a5d608db232200c1e6771ebf9619aa</sys_id>
+        <sys_id>37cf381e0f336200f9ba306be1050ec6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_snc_datadog_problem_table</sys_name>
         <sys_package display_value="Datadog" source="x_snc_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
-        <sys_update_name>ua_table_licensing_config_e1a5d608db232200c1e6771ebf9619aa</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_37cf381e0f336200f9ba306be1050ec6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2016-11-10 22:33:22</sys_updated_on>
     </ua_table_licensing_config>

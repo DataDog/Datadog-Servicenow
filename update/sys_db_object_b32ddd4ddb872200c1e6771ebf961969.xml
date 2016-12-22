@@ -17,7 +17,7 @@
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Import Set Row" name="sys_import_set_row">899f1873db132200c1e6771ebf96197d</super_class>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">9be922860f332200f9ba306be1050e6a</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-11-10 22:31:00</sys_created_on>
