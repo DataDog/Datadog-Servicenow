@@ -16,7 +16,7 @@
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-12-19 03:22:19</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>3f1e0651db732200c1e6771ebf9619f0</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>[Script]</sys_name>

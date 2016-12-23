@@ -20,9 +20,8 @@
         <element label="ID" max_length="40" name="id" type="string"/>
         <element label="Last Updated" max_length="40" name="last_updated" type="glide_date_time"/>
         <element label="Link" max_length="80" name="link" type="string_full_utf8"/>
-        <element label="Org ID" max_length="40" name="org_id" type="integer"/>
         <element label="Org Name" max_length="80" name="org_name" type="string_full_utf8"/>
-        <element label="Pretty Event Details" max_length="4000" name="pretty_event_details" type="journal_input"/>
+        <element label="Pretty Event Details" max_length="4000" name="pretty_event_details" type="string_full_utf8"/>
         <element label="Priority" max_length="40" name="priority" type="integer"/>
         <element label="Text Only Message" max_length="4000" name="text_only_msg" type="string_full_utf8"/>
     </element>
