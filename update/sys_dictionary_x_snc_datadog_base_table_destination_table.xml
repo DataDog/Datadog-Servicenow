@@ -3,7 +3,6 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="destination_table" table="x_snc_datadog_base_table">
         <active>true</active>
         <array>false</array>
-        <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
@@ -53,7 +52,7 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-11-10 22:30:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>6242a19e0fb36200f9ba306be1050e89</sys_id>
+        <sys_id>63e604764f00320046ee2d118110c78d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Destination Table</sys_name>
         <sys_package display_value="Datadog" source="x_snc_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
@@ -62,7 +61,7 @@
         <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_datadog_base_table_destination_table</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2016-12-22 02:42:56</sys_updated_on>
+        <sys_updated_on>2017-01-04 19:36:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
