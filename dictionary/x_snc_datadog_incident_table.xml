@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element attributes="live_feed=true" extends="x_snc_datadog_base_table" label="Datadog Incident Table" max_length="40" name="x_snc_datadog_incident_table" type="collection"/>
-</database>

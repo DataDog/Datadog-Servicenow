@@ -13,11 +13,11 @@
         <is_extendable>true</is_extendable>
         <label>Datadog Event Table</label>
         <live_feed_enabled>true</live_feed_enabled>
-        <name>x_snc_datadog_event_table</name>
+        <name>x_datad_datadog_event_table</name>
         <number_ref/>
         <provider_class/>
         <read_access>true</read_access>
-        <super_class display_value="Datadog Base Table" name="x_snc_datadog_base_table">b32ddd4ddb872200c1e6771ebf961969</super_class>
+        <super_class display_value="Datadog Base Table" name="x_datad_datadog_base_table">b32ddd4ddb872200c1e6771ebf961969</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2016-11-10 22:32:48</sys_created_on>
@@ -25,7 +25,7 @@
         <sys_id>9acf518ddb872200c1e6771ebf96196f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Datadog Event Table</sys_name>
-        <sys_package display_value="Datadog" source="x_snc_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
+        <sys_package display_value="Datadog" source="x_datad_datadog">28a41a50db032200c1e6771ebf961998</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Datadog">28a41a50db032200c1e6771ebf961998</sys_scope>
@@ -33,7 +33,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2016-11-10 22:32:48</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_snc_datadog.user" name="x_snc_datadog.user">7ca41e50db032200c1e6771ebf96199e</user_role>
+        <user_role display_value="x_datad_datadog.user" name="x_datad_datadog.user">7ca41e50db032200c1e6771ebf96199e</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
