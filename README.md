@@ -1,3 +1,8 @@
+# DEPRECATED
+
+**Resources in this repository are deprecated. To install the Datadog-ServiceNow integration, please refer to https://docs.datadoghq.com/integrations/servicenow/#setup**
+
+
 # Generated files
 This repository contains generated files and a checksum.
 
